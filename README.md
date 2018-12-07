@@ -31,4 +31,7 @@ plot)
 </p>
 
 # Output:
-![alt text](VMplacement/cc1.PNG =250x250)
+<img align="left" width="600" height="auto" src="cc1.PNG">
+
+
+
