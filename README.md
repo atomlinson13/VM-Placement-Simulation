@@ -31,4 +31,4 @@ plot)
 </p>
 
 # Output:
-<img src="">
+<img src="cc1.png">
