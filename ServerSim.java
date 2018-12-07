@@ -7,13 +7,6 @@
  * @version 1.00 2018/9/23
  */
 
-/**
- * @(#)Sim.java
- *
- *
- * @author
- * @version 1.00 2018/9/23
- */
 
 import java.util.Random;
 import java.util.*;
