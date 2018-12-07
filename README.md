@@ -6,11 +6,13 @@ available. Three types of VMs (virtual machines) arrive to this system. VMs of t
 1/8 unit of CPU each. In each time slot, the number of VMs which arrive into the system
 is binomially distributed with parameters N and λ, and each VM is of type 1, 2, or 3, with
 probability 1/3 each. Consider the following two assignment policies.
-• FirstFit policy: assign the VM to the lowest indexed server which can accommodate it.
-Update the available space in the server, once a VM is assigned to it.
-• BestFit pllicy: assign the VM to the server with the least amount of space available
+  <ul>
+    <li><strong>FirstFit policy:</strong> assign the VM to the lowest indexed server which can accommodate it.
+  Update the available space in the server, once a VM is assigned to it.</li>
+<li><strong> BestFit policy:</strong> assign the VM to the server with the least amount of space available
 (among all servers which have enough space to accommodate the VM). Update the
-available space in the server, once a VM is assigned to it.
+  available space in the server, once a VM is assigned to it.</li>
+</ul>    
 VMs of type 1 stay in the system for a geometrically distributed amount of time with mean
 10, VMs of type 2 stay in the system for a geometrically distributed amount of time with
 mean 8, VMs of type 3 stay in the system for a geometrically distributed amount of time
@@ -28,3 +30,5 @@ plot)
 </ul>
 </p>
 
+# Output:
+<img src="">
